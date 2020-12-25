@@ -16,6 +16,7 @@ public class TestController {
         return "you don't need to be logged in";
     }
 
+
     @GetMapping("/restricted")
     public String restricted() {
         return "if you see this you are logged in";
